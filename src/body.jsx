@@ -1,4 +1,10 @@
+import img1 from './assets/download.png'
+import img2 from "./assets/IMG_20230805_171429.jpg"
+
+
 export const Body = () =>{
+
+
     return(
         <div id='body'>
 
@@ -17,11 +23,11 @@ export const Body = () =>{
             </div>
            
            
-            <img src='src\assets\IMG_20230805_171429.jpg' alt='img'/>
+            <img src={img2} alt='img'/>
             
             <div>
                 <h1 id='h12nd'>{'<CODER>'}</h1>
-                <img className="imgPaint"  src='src\assets\download.png' alt='img'/>
+                <img className="imgPaint"  src={img1} alt='img'/>
             </div>
             
             

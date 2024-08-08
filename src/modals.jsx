@@ -1,4 +1,5 @@
 import { useState } from "react"
+import vid1 from "./assets/SVID_20240226_190526_1.mp4"
 
 export const Twitter = () => {
 
@@ -20,7 +21,7 @@ export const Twitter = () => {
             </div>
 
               <video width="640" height="360" controls loop muted poster="poster.jpg">
-                <source src="src\assets\SVID_20240226_190526_1.mp4" type="video/mp4"/>
+                <source src={vid1} type="video/mp4"/>
                 Your browser does not support the video tag.
               </video>
            <br/>
