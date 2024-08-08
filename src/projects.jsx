@@ -1,5 +1,8 @@
 import { Quiz, School, Twitter } from "./modals"
 import { useState } from "react"
+import img4 from './assets/images.jpg'
+import img5 from './assets/Screenshot_20240531_000740_com.android.gallery3d.jpg'
+import img6 from './assets/images.png'
 
 export const Projects = ()=>{
 
@@ -29,7 +32,7 @@ export const Projects = ()=>{
     return(
         <div id='projects'>
                <div className="div1">
-                <img className='imgTwitter' src='src\assets\images.jpg' alt='img'/>
+                <img className='imgTwitter' src={img4} alt='img'/>
                 <br/>
                 <button onClick={school}>Open</button>
                 {isVisibleSchool && <School />}
@@ -38,14 +41,14 @@ export const Projects = ()=>{
                 </div>
                
                <div className="div1">
-                <img className='imgTwitter'  src='src\assets\Screenshot_20240531_000740_com.android.gallery3d.jpg' alt="img"/>
+                <img className='imgTwitter'  src={img5} alt="img"/>
                 <button onClick={imgClicked}>Play video</button>
                 {isVisible && <Twitter />}
                 </div>
                
             
               <div className="div1">
-                <img className='imgTwitter' src='src\assets\images.png' alt='img'/>
+                <img className='imgTwitter' src={img6} alt='img'/>
                 <br/>
                 <button onClick={quiz}>Open</button>
                 {isVisibleQuiz && <Quiz />}
