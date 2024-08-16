@@ -24,7 +24,7 @@ export const Body = () =>{
             </div>
            
            
-            <img src={img2} alt='img'/>
+            <img id='me' src={img2} alt='img'/>
             
             <div>
                 <h1 id='h12nd'>{'<CODER>'}</h1>

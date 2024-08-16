@@ -65,11 +65,16 @@ export const Portfolio = ()=>{
 
             <p>
                I'm an aspiring software developer, in the midst of learning to program with JavaScript.
-               I have attained sufficient knowledge in web development using the popular languages , HTML and CSS.
+               I have attained sufficient knowledge in web development using the popular languages , HTML and CSS.<br/>
                My first simple web projects are in the following GitHub repository links:
                <ul>
                  <li><a href='https://github.com/KitsoMogale/CodeSpace_Cat_Project'>CodeSpace_Cat_Project</a></li>
                  <li><a href='https://github.com/KitsoMogale/Animated_Scrum'>Animated_Scrum</a></li>
+               </ul>
+               My recent big projects are in the following github repositories:
+               <ul>
+                 <li><a href='https://github.com/KitsoRealMogale/KITMOG510_BCL2401_GROUPA_KitsoMogale_DJS11-main'>Podcast App</a></li>
+                 <li><a href='https://github.com/KitsoMogale/KITMOG510_BCL2401_GROUPA_KitsoMogale1_JSF03'>E-commerce site</a></li>
                </ul>
             </p>
 
