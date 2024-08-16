@@ -35,7 +35,7 @@ export const NavBar = () =>{
         <div id='navDiv'>
            
               <span id='about' onClick={about}><u style={{color:'blue',textDecoration:'none'}}>About</u></span> 
-              <span><a style={{color:'blue'}} href='https://main--superlative-trifle-df2409.netlify.app/'>Article</a></span>  
+              <span><a style={{color:'blue'}} href='https://main--superlative-trifle-df2409.netlify.app/'>Articles</a></span>  
               <span id='portfolio'  onClick={portfolio}><u style={{color:'blue',textDecoration:'none'}}>Portfolio</u></span>  
               <span id='contact' onClick={contact}><u style={{color:'blue',textDecoration:'none'}}>Contact</u></span>  
             
